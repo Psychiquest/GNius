@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.myapplication.MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+
+        <EditText
+            android:id="@+id/example_max"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Course Code"
+            android:inputType="text"
+            android:maxLines="1" />
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="5dp"
+       android:hint="keyword:">
+
+        <EditText
+           android:id="@+id/example_keyword"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:maxLines="1"
+           />
+   </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:hint="extension:"></android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/example_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:text="search"/>
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:background="@color/colorAccent"
+        android:backgroundTint="@color/backgroundColor"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text=" Download the study material for the required course "
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+</LinearLayout>

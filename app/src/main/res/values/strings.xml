@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Gnius</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="anil">Anil</string>
+    <string name="app_name2">Mya</string>
+    <string-array name="domain_array">
+        <item>Civil</item>
+        <item>Electrical</item>
+        <item>ELV/Network</item>
+        <item>Others</item>
+    </string-array>
+
+
+</resources>
